@@ -9,14 +9,19 @@
         }
     ],
     "require": {
+        "delboy1978uk/form": "^2.3",
+        "delboy1978uk/session": "^1.1",
+        "laminas/laminas-text": "^2.7"
     },
     "require-dev":{
+        "roave/security-advisories": "dev-master",
         "codeception/codeception":"^4.1",
         "codeception/module-asserts": "^1.1"
     },
-    "autoload":{
-        "psr-4":{
-            "Del\\":"src/"
+    "autoload": {
+        "psr-4": {
+            "Del\\Form\\": "src/",
+            "DelTesting\\Form\\": "tests/unit/Del"
         }
     }
 }
